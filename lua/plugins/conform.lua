@@ -6,7 +6,7 @@ return {
     formatters_by_ft = {
       lua = { "stylua" },
       -- Conform will run multiple formatters sequentially
-      python = { "isort", "black" },
+      python = { "ruff", "ruff_format" },
       rust = { "rustfmt" },
       -- Conform will run the first available formatter
       javascript = { "prettierd", "prettier", stop_after_first = true }, -- stop_after_first, makes it so that if prettierd functions, no need to use prettier
