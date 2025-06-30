@@ -3,5 +3,5 @@
 ### Installation
 
 ```
-git clone https://github.com/ahhchooey/nvim-config.git /Users/<username>/.config/nvim
+git clone https://github.com/ahhchooey/nvim-config.git /Users/alexchui/.config/nvim
 ```
