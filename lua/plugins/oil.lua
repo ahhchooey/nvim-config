@@ -1,16 +1,17 @@
 return {
-  'stevearc/oil.nvim',
+  "stevearc/oil.nvim",
   ---@module 'oil'
   ---@type oil.SetupOpts
   dependencies = {
-    { "echasnovski/mini.icons", opts = {} }
+    { "echasnovski/mini.icons", opts = {} },
   },
   lazy = false,
   config = function()
     require("oil").setup({
       view_options = {
-        show_hidden = true
+        show_hidden = true,
       },
     })
-  end
+  end,
+  enabled = false,
 }
